@@ -35,25 +35,6 @@ La aplicación ofrece las siguientes opciones en su menú principal:
 * **HttpClient (Java 11+):** Cliente HTTP nativo para realizar solicitudes a la API.
 * **API Gutendex:** API pública utilizada para obtener datos de libros.
 
-## Estructura del Proyecto
 
-├── src/main/java/com/alurachallenge/literalura
-│   ├── LiterAluraApplication.java   # Clase principal de Spring Boot
-│   ├── dto                             # Data Transfer Objects para mapeo JSON
-│   │   ├── DatosAutor.java
-│   │   ├── DatosLibro.java
-│   │   └── DatosRespuestaAPI.java
-│   ├── model                           # Clases de entidad (JPA)
-│   │   ├── Autor.java
-│   │   └── Libro.java
-│   ├── principal                       # Lógica principal de la aplicación y menú
-│   │   └── Principal.java
-│   ├── repository                      # Interfaces de repositorios (Spring Data JPA)
-│   │   ├── AutorRepository.java
-│   │   └── LibroRepository.java
-│   └── service                         # Servicios de consumo de API y conversión de datos
-│       ├── ConsumoAPI.java
-│       ├── ConvierteDatos.java
-│       └── IConvierteDatos.java
 └── pom.xml                             # Archivo de configuración de Maven
 
