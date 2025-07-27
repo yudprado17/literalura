@@ -35,6 +35,3 @@ La aplicación ofrece las siguientes opciones en su menú principal:
 * **HttpClient (Java 11+):** Cliente HTTP nativo para realizar solicitudes a la API.
 * **API Gutendex:** API pública utilizada para obtener datos de libros.
 
-
-└── pom.xml                             # Archivo de configuración de Maven
-
